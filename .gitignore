@@ -41,10 +41,16 @@ htmlcov
 *~
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # MacOS stuff
 =======
 
 
 # Mac
 >>>>>>> 185cf71 (resolved git ignore)
+=======
+
+
+# Mac
+>>>>>>> 185cf7135dba9bb39c53f3e72153c0a7379b6e84
 .DS_Store
