@@ -40,5 +40,11 @@ htmlcov
 # Emacs backups
 *~
 
+<<<<<<< HEAD
 # MacOS stuff
+=======
+
+
+# Mac
+>>>>>>> 185cf71 (resolved git ignore)
 .DS_Store
