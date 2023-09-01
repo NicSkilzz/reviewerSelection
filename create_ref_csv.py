@@ -10,6 +10,7 @@ def create_ref_csv(refs):
 
     ids = [w["id"].split("/")[-1] for w in refs]
     abstracts = [w["abstract"] for w in refs]
+    year = [w["publication_year"] for w in refs]
 
     journal = []
     for w in refs:
@@ -29,6 +30,6 @@ def create_ref_csv(refs):
         authors.append(authors_per_paper)
 
     return pd.DataFrame(
-        list(zip(ids, journal, authors, abstracts)),
-        columns=["oa_id", "journal_issnl", "authors", "abstracts"],
+        list(zip(ids, year, journal, authors, abstracts)),
+        columns=["oa_id", "year", "journal_issnl", "authors", "abstracts"],
     )
